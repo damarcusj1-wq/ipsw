@@ -1,5 +1,9 @@
 name: "AppleMETA"
-
+config/          kernel config and export lists; architecture-specific API gates
+SETUP/           build tooling, symbol management, config helpers
+EXTERNAL_HEADERS/ exported headers kept separate from local dependencies
+bsd/             BSD subsystem: sockets, filesystems, networking, security
+iokit/           I
 on:
   schedule:
     - cron: "00 01,13 * * *"
